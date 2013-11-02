@@ -9,6 +9,7 @@ The model to create:
 ```javascript
 
 var child = {
+	id : 'hash',
 	name : 'first',
 	email : 'email',
 	birthday : 'birthday',
@@ -23,7 +24,7 @@ var child = {
 Using Fake.js
 
 ```javascript
-var fake = require('fake');
+var fake = require('fake.js');
 fake.create(child, 2, function(data){
 	console.log(data);
 });
