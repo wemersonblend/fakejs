@@ -1,10 +1,23 @@
-
-var Chance = require('chance');
-var async = require('async');
+if(typeof(require) == 'function'){
+	var Chance = require('chance');
+	var async = require('async');
+}
 
 var fake = {}
 
 fake.create = function(modeler, iterator, callback) {
+
+	if(typeof(Chance) === 'undefined'){
+		console.error('Fakejs require Chance');
+		return;
+	}
+
+	if(typeof(async) === 'undefined'){
+		console.error('Fakejs require Async');
+		return;
+	}
+
+	
 	var chance = new Chance();
 	
 	iterator = iterator || 1;
@@ -37,4 +50,8 @@ fake.create = function(modeler, iterator, callback) {
 		callback(null, model);
 	}
 }
-module.exports = fake
+
+
+if (typeof(module) !== 'undefined' && 'exports' in module) {
+	module.exports = fake;  
+}

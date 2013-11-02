@@ -17,5 +17,3 @@ var child = {
 fake.create(child, 2, function(data){
 	console.log(data);
 });
-
-console.log('--------------------------- this is asynx');
