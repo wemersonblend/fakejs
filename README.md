@@ -54,3 +54,6 @@ The result :
 
 
 ```
+
+
+Fakejs accepts most parameters [Chance](http://chancejs.com/) available, in addition to the default properties of the javascript as String, Integer, boolean, and functions
