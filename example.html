@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fake.js</title>
+	<script type="text/javascript" src="node_modules/chance/chance.js"></script>
+	<script type="text/javascript" src="node_modules/async/lib/async.js"></script>
+	<script type="text/javascript" src="fake.js"></script>
+	<script type="text/javascript">
+		var child = {
+			id : 'hash',
+			name : 'first',
+			age : 'age',
+			email : 'email',
+			birthday : 'birthday',
+
+			id : function(){
+				return 'US ' + Math.ceil(Math.random() * 1000);
+			},	
+
+			fatherName: 'John Doe'
+		};
+
+		fake.create(child, 3, function(data){
+			console.log(data);
+		});
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
