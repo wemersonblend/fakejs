@@ -1,10 +1,19 @@
 {
-  "name": "Fake.js",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "chance": "~0.5.1",
-    "async": "~0.2.9"
-  },
-  "devDependencies": {}
+	"name": "Fake.js",
+	"author": "Juriy Zaytsev <kangax@gmail.com>",
+	"version": "1.0.0",
+	"keywords": ["Fake", "Generate Object", "chance", "random"],
+	"repository": "git://github.com/wemersonblend/fakejs.git",
+
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://github.com/wemersonblend/fakejs/raw/master/LICENSE"
+	}],
+
+	"dependencies": {
+		"chance": "~0.5.1",
+		"async": "~0.2.9"
+	},
+	"devDependencies": {},
+	"main": "./fake.js"
 }
