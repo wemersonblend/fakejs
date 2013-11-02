@@ -9,7 +9,6 @@ The model to create:
 ```javascript
 
 var child = {
-	id : 'hash',
 	name : 'first',
 	email : 'email',
 	birthday : 'birthday',
