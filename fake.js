@@ -14,7 +14,8 @@ fake.create = function(modeler, iterator, callback) {
 			next(err, model)
 		})
 	}, function(err, models) {
-		console.log(models);	
+		//console.log(models);
+		callback(models)	
 	});
 
 	function createModel(modeler, callback){
