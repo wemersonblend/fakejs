@@ -3,7 +3,6 @@ var fake = require('./fake');
 var child = {
 	id : 'hash',
 	name : 'first',
-	age : 'age',
 	email : 'email',
 	birthday : 'birthday',
 
