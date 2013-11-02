@@ -3,7 +3,6 @@ var fake = require('./fake');
 var child = {
 	id : 'hash',
 	name : 'first',
-	age : 'age',
 	email : 'email',
 	birthday : 'birthday',
 
@@ -17,5 +16,3 @@ var child = {
 fake.create(child, 2, function(data){
 	console.log(data);
 });
-
-console.log('--------------------------- this is asynx');
