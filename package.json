@@ -1,0 +1,10 @@
+{
+  "name": "Fake.js",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "chance": "~0.5.1",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {}
+}
