@@ -1,7 +1,7 @@
 {
 	"name": "fake.js",
 	"author": "Wemerson Silva <wemersonblend@gmail.com>",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"keywords": ["Fake", "Generate Object", "chance", "random"],
 	"repository": "git://github.com/wemersonblend/fakejs.git",
 
