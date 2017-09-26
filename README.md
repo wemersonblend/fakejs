@@ -37,18 +37,18 @@ The result :
 
 [ 
     { 
-        id: 'US 736',
-        name: 'Erick',
-        email: 'leluzib@uta.gov',
+        "id": "US 736",
+        name: "Erick",
+        email: "leluzib@uta.gov",
         birthday: Sun Jul 26 1942 00:00:00 GMT-0300 (BRT),
-        fatherName: 'John Doe' 
+        fatherName: "John Doe" 
     },
   { 
-        id: 'US 760',
-        name: 'Gabriel',
-        email: 'wu@ubjurhan.org',
+        id: "US 760",
+        name: "Gabriel",
+        email: "wu@ubjurhan.org",
         birthday: Tue May 05 1953 00:00:00 GMT-0300 (BRT),
-        fatherName: 'John Doe' 
+        fatherName: "John Doe" 
     } 
 ]
 
