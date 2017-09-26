@@ -40,14 +40,14 @@ The result :
     "id": "US 736",
     "name": "Erick",
     "email": "leluzib@uta.gov",
-    "birthday": Sun Jul 26 1942 00:00:00 GMT-0300 (BRT),
+    "birthday": "Sun Jul 26 1942 00:00:00 GMT-0300 (BRT)",
     "fatherName": "John Doe" 
   },
   { 
-    id: "US 760",
+    "id": "US 760",
     "name": "Gabriel",
     "email": "wu@ubjurhan.org",
-    "birthday": Tue May 05 1953 00:00:00 GMT-0300 (BRT),
+    "birthday": "Tue May 05 1953 00:00:00 GMT-0300 (BRT)",
     "fatherName": "John Doe" 
   } 
 ]
